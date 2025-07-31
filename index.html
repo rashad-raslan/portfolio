@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahad Raslan | Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 py-4 px-6 md:px-12 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-white">RR</a>
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="text-white nav-link">Home</a>
+            <a href="#about" class="text-white nav-link">About</a>
+            <a href="#featured-projects" class="text-white nav-link">My Projects</a>
+            <!-- <a href="#projects" class="text-white nav-link">Projects</a> -->
+            <a href="#contact" class="text-white nav-link">Contact</a>
+        </div>
+        <button class="md:hidden text-white text-2xl">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero flex items-center justify-center">
+        <div class="hero-content text-center px-6">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Rahad Raslan</h1>
+            <h2 class="text-2xl md:text-3xl mb-6">Frontend Developer</h2>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-8">
+                I craft beautiful, responsive web experiences with clean code and intuitive design.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects"
+                    class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition">View
+                    Work</a>
+                <a href="#contact"
+                    class="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition">Contact
+                    Me</a>
+            </div>
+        </div>
+        <a href="#about" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <i class="fas fa-chevron-down text-white text-2xl"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-6 py-16">
+        <h2 class="section-title text-3xl font-bold">About Me</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="WhatsApp Image 2025-07-14 at 18.11.16_ca1b441d.jpg"
+                    alt="Portrait of Rahad Raslan, a professional frontend developer in casual work attire"
+                    class="rounded-lg shadow-xl w-full" />
+            </div>
+            <div>
+                <p class="text-lg mb-6">
+                    I'm a passionate frontend developer with 2+ years of experience building modern web applications.
+                    I specialize in creating intuitive user interfaces with HTML, CSS, and JavaScript frameworks.
+                </p>
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold mb-4">Skills</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div class="skill-item bg-white p-4 rounded-lg shadow text-center">
+                            <i class="fab fa-html5 text-4xl text-orange-500 mb-2"></i>
+                            <p class="font-medium">HTML5</p>
+                        </div>
+                        <div class="skill-item bg-white p-4 rounded-lg shadow text-center">
+                            <i class="fab fa-css3-alt text-4xl text-blue-500 mb-2"></i>
+                            <p class="font-medium">CSS3</p>
+                        </div>
+                        <div class="skill-item bg-white p-4 rounded-lg shadow text-center">
+                            <i class="fab fa-js text-4xl text-yellow-500 mb-2"></i>
+                            <p class="font-medium">JavaScript</p>
+                        </div>
+                        <div class="skill-item bg-white p-4 rounded-lg shadow text-center">
+                            <i class="fab fa-react text-4xl text-blue-400 mb-2"></i>
+                            <p class="font-medium">React</p>
+                        </div>
+                        <div class="skill-item bg-white p-4 rounded-lg shadow text-center">
+                            <i class="fab fa-git-alt text-4xl text-red-500 mb-2"></i>
+                            <p class="font-medium">Git</p>
+                        </div>
+                        <div class="skill-item bg-white p-4 rounded-lg shadow text-center">
+                            <i class="fas fa-mobile-alt text-4xl text-purple-500 mb-2"></i>
+                            <p class="font-medium">Responsive</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#"
+                    class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+                    <i class="fas fa-download mr-2"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="featured-projects" class="bg-gray-50 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98e16344-dac7-48b4-b7c2-45be693157d6.png"
+                            alt="E-commerce website dashboard showing product listings and analytics"
+                            class="w-full project-img" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">E-Commerce Dashboard</h3>
+                        <p class="text-gray-600 mb-4">
+                            Modern admin dashboard for e-commerce platforms with real-time analytics and inventory
+                            management.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs">React</span>
+                                <span class="bg-green-100 text-green-600 px-2 py-1 rounded-full text-xs">CSS</span>
+                            </div>
+                            <a href="https://rashad-raslan.github.io/E-Commerce-Dashboard/"
+                                class="text-blue-600 hover:underline" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://th.bing.com/th/id/OIP.2M6rqJsEG7ErxEqEeA7M_AHaE8?w=233&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+                            alt=" Real-time Egyptian-Coffeewith geolocation support and 5-day"
+                            class="w-full project-img" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Egyptian-Coffee</h3>
+                        <p class="text-gray-600 mb-4">
+                            Real-time Egyptian-Coffeewith geolocation support and 5-day forecast predictions.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-2">
+                                <span
+                                    class="bg-yellow-100 text-yellow-600 px-2 py-1 rounded-full text-xs">JavaScript</span>
+                                <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs">API</span>
+                            </div>
+                            <a href="https://rashad-raslan.github.io/-Egyptian-Coffee/"
+                                class="text-blue-600 hover:underline" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://th.bing.com/th/id/OIP._7gY2w2fQ2giMgeGyIqEhAHaFj?w=207&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                            alt=" Company-Management-System for managing tasks" class="w-full project-img" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Company-Management-System</h3>
+                        <p class="text-gray-600 mb-4">
+                            Company-Management-System for managing tasks with drag-and-drop functionality and progress
+                            tracking.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs">React</span>
+                                <span
+                                    class="bg-purple-100 text-purple-600 px-2 py-1 rounded-full text-xs">Firebase</span>
+                            </div>
+                            <a href="https://rashad-raslan.github.io/Company-Management-System/"
+                                class="text-blue-600 hover:underline" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- All Projects Section -->
+    <section id="projects" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold mb-12 text-center" id="qwer">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://th.bing.com/th?q=Marketing+Jpg&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-XA&cc=EG&setlang=en&adlt=strict&t=1&mw=247"
+                            alt="Full-featured Elevate-Marketing" class="w-full project-img">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Elevate-Marketing</h3>
+                        <p class="text-gray-600 mb-4">
+                            Full-featured Elevate-Marketing with cart functionality, user accounts, and payment
+                            integration.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs">React</span>
+                                <span class="bg-green-100 text-green-600 px-2 py-1 rounded-full text-xs">Node.js</span>
+                            </div>
+                            <a href="https://rashad-raslan.github.io/Elevate-Marketing/"
+                                class="text-blue-600 hover:underline" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.-ZOZCcJrZDm28XvDz8SLdAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Global-University system" class="w-full project-img">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Global-University</h3>
+                        <p class="text-gray-600 mb-4">
+                            Global-University system with rich text editing, categories, and responsive design.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-2">
+                                <span
+                                    class="bg-yellow-100 text-yellow-600 px-2 py-1 rounded-full text-xs">JavaScript</span>
+                                <span
+                                    class="bg-purple-100 text-purple-600 px-2 py-1 rounded-full text-xs">MongoDB</span>
+                            </div>
+                            <a href="https://rashad-raslan.github.io/Global-University/"
+                                class="text-blue-600 hover:underline" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden">
+                    <div class="overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/99a0ac55-1721-43b3-9bbe-5c8b07444406.png"
+                            alt="Profile-ModernShop website" class="w-full project-img">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Artist Portfolio</h3>
+                        <p class="text-gray-600 mb-4">
+                            Custom Profile-ModernShop website with gallery, contact form, and responsive layout.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded-full text-xs">HTML/CSS</span>
+                                <span class="bg-red-100 text-red-600 px-2 py-1 rounded-full text-xs">PHP</span>
+                            </div>
+                            <a href="https://rashad-raslan.github.io/My-Profile-ModernShop/"
+                                class="text-blue-600 hover:underline" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="#"
+                    class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+                    View All Projects <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold mb-12 text-center">Get In Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="contact-info">
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <p class="mb-6">Feel free to reach out for collaboration or just to say hello!</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-600 mr-4 text-xl"></i>
+                            <span>rahadraslan288@gmail.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-blue-600 mr-4 text-xl"></i>
+                            <span>+01033897051 <br> +01505410452</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-blue-600 mr-4 text-xl"></i>
+                            <span>EYG-ALBEHARA, KH</span>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h4 class="font-medium mb-4">Follow Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/shdy-mahmoud"
+                                class="social-icon text-2xl text-gray-700 hover:text-blue-600" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/4ashad_mahmoud?igsh=MXd1MTd4YXZ4c2tmbw=="
+                                class="social-icon text-2xl text-gray-700 hover:text-blue-400" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/rashad-raslan-111298326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                class="social-icon text-2xl text-gray-700 hover:text-blue-700" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.facebook.com/share/1B4e3ry9bj/"
+                                class="social-icon text-2xl text-gray-700 hover:text-pink-600" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="contact-form bg-white p-8 rounded-lg shadow">
+                        <div class="mb-6">
+                            <label for="name" class="block mb-2 font-medium">Name</label>
+                            <input type="text" id="name"
+                                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block mb-2 font-medium">Email</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block mb-2 font-medium">Message</label>
+                            <textarea id="message" rows="5"
+                                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>© 2025 Rahad Raslan. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.md\\:hidden');
+        const navLinks = document.querySelector('.md\\:flex');
+
+        mobileMenuButton.addEventListener('click', function () {
+            navLinks.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu if open
+                navLinks.classList.add('hidden');
+            });
+        });
+
+        // Form submission
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Get form values
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+
+                // Here you would typically send this data to a server
+                console.log('Form submitted:', { name, email, message });
+
+                // Show success message
+                alert('Thank you for your message! I will get back to you soon.');
+                contactForm.reset();
+            });
+        }
+    </script>
+</body>
+
+</html>
